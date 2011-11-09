@@ -1,0 +1,11 @@
+CMakeLists.txt.user
+*.shared
+.directory
+.DS_Store
+.kde4
+.kdev4
+.orig
+qtcreator-build
+*.user
+*~
+*.orig

@@ -20,5 +20,6 @@ include(${QT_USE_FILE})
 include(CommonUtils)
 
 set(QT_MIN_VERSION "4.7.4")
+option(CREATE_BUNDLE "Create application bundle then install" ON)
 define_bundle_paths(client)
 add_subdirectory(src)
